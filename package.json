@@ -1,0 +1,10 @@
+{
+  "name": "next12-starter-template",
+  "author": "Hamza Yousfi",
+  "version": "1.0.0",
+  "description": "A Starter Template for `production-ready` applications that want to use Nextjs Version 12 with typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "S077YBu1N0"
+}
