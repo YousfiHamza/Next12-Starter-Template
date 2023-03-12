@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card primary"
+    data-testid="card"
+  >
+    <a
+      href="https://example.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <h2
+        class="title"
+      >
+        Example
+      </h2>
+      <p
+        class="content"
+      >
+        This is an example card
+      </p>
+    </a>
+  </div>
+</DocumentFragment>
+`;

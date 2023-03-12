@@ -1,18 +1,17 @@
-# 🔥 `PRODUCTION-READY` starter template for your `Nextjs` app if you are using `TypeScript` 🔥
+# 🔥 `PRODUCTION-READY` starter template for your `Nextjs` application using `TypeScript` 🔥
 
-###### It includes all what you need to build amazing projects:
+###### It includes all what your team will need to build scalable projects:
 
 - ⚛️ **Framework** — Nextjs ( TypeScript )
 - 🌸 **Stylings** — SCSS / CSS
 - 🔬 **Unit Tests** — React testing library / node-mocks-http / supertest
 - 🧪 **E2E Tests** — Cypress
-- 📏 **Linter** — ESLint
-- 💖 **Formatter** — Prettier
-- 🐺 **Git Guard** — Husky
+- 📚 **Documentation\*** — Storybook
 - ⛓️ **Continuous Integration** — Github Actions workflows
 - 🌐 **Continuous Deployement** — Vercel
-
----
+- 💖 **Formatter** — Prettier
+- 🐺 **Git Guard** — Husky
+- 📏 **Linter** — ESLint
 
 ---
 
