@@ -1,0 +1,15 @@
+{
+  "extends": ["plugin:storybook/recommended", "next", "next/core-web-vitals"],
+  "globals": {
+    "React": "readonly"
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.@(ts|tsx|js|jsx)", "*.story.@(ts|tsx|js|jsx)"],
+      "rules": {
+        // example of overriding a rule
+        "storybook/hierarchy-separator": "error"
+      }
+    }
+  ]
+}

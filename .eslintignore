@@ -1,0 +1,11 @@
+.cache
+public
+.storybook
+.swc
+.github
+.husky
+storybook-static
+
+commitlint.config.js
+next-env.d.ts
+
