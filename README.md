@@ -1,3 +1,4 @@
+
 # 🔥 `PRODUCTION-READY` starter template for your `Nextjs` application using `TypeScript` 🔥
 
 ###### It includes all what your team will need to build scalable projects:
