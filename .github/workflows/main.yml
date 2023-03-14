@@ -1,4 +1,16 @@
 name: CI
+on:
+  pull_request:
+    types: [opened, ready_for_review, reopened, synchronize]
+    branches:
+      - master
+      - staging
+      - develop
+  push:
+    branches:
+      - master
+      - staging
+      - develop
 jobs:
   Unit-Tests:
     name: Unit Tests (JEST)
