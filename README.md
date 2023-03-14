@@ -9,7 +9,7 @@
 - 🧪 **E2E Tests** — Cypress
 - 📚 **Documentation\*** — Storybook
 - ⛓️ **Continuous Integration** — Github Actions workflows
-- 🌐 **Continuous Deployement** — Vercel
+- 🌐 **Continuous Deployement** — Vercel (also preview of the app & storybook)
 - 💖 **Formatter** — Prettier
 - 🐺 **Git Guard** — Husky
 - 📏 **Linter** — ESLint
