@@ -1,7 +1,10 @@
 name: CI
 on:
+  # TODO: remove pull_request_target ( pull_request_target is just here to allow the jobs to be run when contributors submit pull requests since its an open source temple )
+  pull_request_target:
+    types: [opened, edited]
   pull_request:
-    types: [opened, ready_for_review, reopened, synchronize]
+    types: [opened, ready_for_review, reopened, synchronize, edited]
     branches:
       - master
       - staging
