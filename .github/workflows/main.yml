@@ -5,12 +5,12 @@ on:
     types: [opened, ready_for_review, reopened, synchronize, edited]
     branches:
       - develop
-  pull_request:
-    types: [opened, ready_for_review, reopened, synchronize, edited]
-    branches:
-      - master
-      - staging
-      - develop
+  # pull_request:
+  #   types: [opened, ready_for_review, reopened, synchronize, edited]
+  #   branches:
+  #     - master
+  #     - staging
+  #     - develop
   push:
     branches:
       - master
