@@ -1,4 +1,4 @@
-# Pull Request Description (more details preferably)
+# Pull Request Description ( details please )
 
 <!-- Make sure that your pull request is into the `develop` branch -->
 
