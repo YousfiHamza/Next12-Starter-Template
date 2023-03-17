@@ -2,7 +2,9 @@ name: CI
 on:
   # TODO: remove pull_request_target ( pull_request_target is just here to allow the jobs to be run when contributors submit pull requests since its an open source temple )
   pull_request_target:
-    types: [opened, edited]
+    types: [opened, ready_for_review, reopened, synchronize, edited]
+    branches:
+      - develop
   pull_request:
     types: [opened, ready_for_review, reopened, synchronize, edited]
     branches:
@@ -13,7 +15,6 @@ on:
     branches:
       - master
       - staging
-      - develop
 jobs:
   Unit-Tests:
     name: Unit Tests (JEST)

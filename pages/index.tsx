@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import Card from '@/components/Elements/Card';
 
-import styles from '@/styles/Home.module.scss';
+import styles from '@/pages/Home.module.scss';
 
 export default function Home() {
   return (
